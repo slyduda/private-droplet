@@ -11,10 +11,10 @@ In order to run the script you need to know two things:
 
 You must ssh into your Gateway then your Backend Droplet or else your connection will drop during the execution of the shell script.
 
-'''md
+```md
 
 sudo git pull remote
 sudo chmod +x ./private_droplet/private_droplet.sh
 ./private_droplet/private_droplet.sh
 
-'''
+```
